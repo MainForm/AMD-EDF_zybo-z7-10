@@ -44,7 +44,8 @@ zybo-z7-10_BSP
 
 # Yocto/PetaLinux build artifacts
 build*/**
-!build*/conf
+!build*/conf/
+!build*/conf/**
 
 bitbake-cookerdaemon.log
 *.log.old

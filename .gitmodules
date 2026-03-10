@@ -1,0 +1,3 @@
+[submodule "sources/meta-zybo-z7-10"]
+	path = sources/meta-zybo-z7-10
+	url = https://github.com/MainForm/meta-zybo-z7-10.git

@@ -17,7 +17,12 @@
 .nfs*
 
 ### VisualStudioCode ###
-.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
@@ -34,6 +39,7 @@
 
 # Project-specific large/generated directories
 AMD_EDF
+!AMD_EDF/.repo
 zybo-z7-10_BSP
 
 # Yocto/PetaLinux build artifacts

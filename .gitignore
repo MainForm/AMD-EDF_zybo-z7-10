@@ -40,6 +40,9 @@ zybo-z7-10_BSP
 build*/**
 !build*/conf/
 !build*/conf/**
+!build*/workspace/
+!build*/workspace/**
+
 
 bitbake-cookerdaemon.log
 *.log.old

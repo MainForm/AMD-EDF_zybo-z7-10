@@ -3,4 +3,4 @@
 	url = https://github.com/MainForm/meta-zybo-z7-10.git
 [submodule "sources/meta-rtlwifi"]
 	path = sources/meta-rtlwifi
-	url = https://github.com/EmbeddedAndroid/meta-rtlwifi
+	url = https://github.com/EmbeddedAndroid/meta-rtlwifi.git

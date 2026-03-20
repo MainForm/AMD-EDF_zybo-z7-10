@@ -29,6 +29,19 @@ The workspace combines:
 AMD EDF is based on the Xilinx `yocto-manifests` workflow and uses the
 `repo` tool to fetch the full layer stack.
 
+Install the required host packages for the Yocto build environment:
+```bash
+sudo apt install build-essential chrpath cpio debianutils diffstat file gawk gcc git iputils-ping libacl1 liblz4-tool locales python3 python3-git python3-jinja2 python3-pexpect python3-pip python3-subunit socat texinfo unzip wget xz-utils zstd
+```
+
+Make sure the `en_US.UTF-8` locale is available:
+```bash
+locale --all-locales | grep en_US.utf8
+````
+
+If you run into issues while preparing the host environment, refer to the
+[Yocto Project system requirements documentation](https://docs.yoctoproject.org/scarthgap/ref-manual/system-requirements.html).
+
 Install `repo`:
 
 ```bash
